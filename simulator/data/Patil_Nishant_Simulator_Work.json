@@ -1,0 +1,126 @@
+[
+  {
+    "type": "SelectWM",
+    "timestamp": 500,
+    "tag": "ModeSelectWM",
+    "flag": "off",
+    "priority": 3,
+	"mode": "WM"
+  },
+  {
+    "type": "SetupWM",
+    "timestamp": 1000,
+    "tag": "ModeSetupWM",
+    "flag": "off",
+    "priority": 3,
+	"wmPostureTracking": true	
+  },
+  {
+    "type": "WMNeckBend",
+    "timestamp": 2000,
+    "tag": "WM-NeckBend-Time",
+    "flag": "off",
+    "priority": 3,
+	"chin2ThroatAngle": 0,
+	"wmChin2ThroatTime": 5.0
+  },
+  {
+    "type": "WMNeckBend",
+    "timestamp": 4000,
+    "tag": "WM-NeckBend-1",
+    "flag": "off",
+    "priority": 3,
+	"chin2ThroatAngle": 50,
+	"wmChin2ThroatTime": 5.0	
+  },
+  {
+    "type": "WMNeckBend",
+    "timestamp": 6000,
+    "tag": "WM-NeckBend-2",
+    "flag": "off",
+    "priority": 3,
+	"chin2ThroatAngle": 160,
+	"wmChin2ThroatTime": 5.0	
+  },
+  {
+    "type": "WMNeckBend",
+    "timestamp": 8000,
+    "tag": "WM-NeckBend-Accept",
+    "flag": "off",
+    "priority": 3,
+	"chin2ThroatAngle": 90,
+	"wmChin2ThroatTime": 5.0	
+  },
+  {
+    "type": "WMBackSlouch",
+    "timestamp": 10000,
+    "tag": "WM-Back-Slouch-Time",
+    "flag": "off",
+    "priority": 3,
+	"thigh2BackAngle": 0,
+	"wmThigh2BackTime": 5.0
+  },
+  {
+    "type": "WMBackSlouch",
+    "timestamp": 12000,
+    "tag": "WM-Back-Slouch-1",
+    "flag": "off",
+    "priority": 3,
+	"thigh2BackAngle": 20,
+	"wmThigh2BackTime": 5.0	
+  },
+  {
+    "type": "WMBackSlouch",
+    "timestamp": 14000,
+    "tag": "WM-Back-Slouch-2",
+    "flag": "off",
+    "priority": 3,
+	"thigh2BackAngle": 150,
+	"wmThigh2BackTime": 5.0	
+  },
+  {
+    "type": "WMBackSlouch",
+    "timestamp": 16000,
+    "tag": "WM-Back-Slouch-Accept",
+    "flag": "off",
+    "priority": 3,
+	"thigh2BackAngle": 100,
+	"wmThigh2BackTime": 5.0	
+  },
+  {
+    "type": "WMKneeBend",
+    "timestamp": 18000,
+    "tag": "WM-Knee-Bend-Time",
+    "flag": "off",
+    "priority": 3,
+	"knee2LegAngle": 0,
+	"wmKnee2LegTime": 5.0	
+  },
+  {
+    "type": "WMKneeBend",
+    "timestamp": 20000,
+    "tag": "WM-Knee-Bend-1",
+    "flag": "off",
+    "priority": 3,
+	"knee2LegAngle": 30,
+	"wmKnee2LegTime": 5.0	
+  },
+  {
+    "type": "WMKneeBend",
+    "timestamp": 22000,
+    "tag": "WM-Knee-Bend-2",
+    "flag": "off",
+    "priority": 3,
+	"knee2LegAngle": 160,
+	"wmKnee2LegTime": 5.0	
+  },
+  {
+    "type": "WMKneeBend",
+    "timestamp": 24000,
+    "tag": "WM-Knee-Bend-Accept",
+    "flag": "off",
+    "priority": 3,
+	"knee2LegAngle": 95,
+	"wmKnee2LegTime": 5.0	
+  }
+]

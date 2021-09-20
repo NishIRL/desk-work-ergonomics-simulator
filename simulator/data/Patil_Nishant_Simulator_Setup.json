@@ -1,0 +1,127 @@
+[
+  {
+    "type": "SelectISM",
+    "timestamp": 500,
+    "tag": "ModeSelectISM",
+    "flag": "off",
+    "priority": 3,
+	"mode": "ISM"
+  },
+  {
+    "type": "SetupISM",
+    "timestamp": 1000,
+    "tag": "ModeSetupISM",
+    "flag": "off",
+    "priority": 3,
+	"ismUserPresence": true,
+	"ismSetupTracking": true
+  },
+  {
+    "type": "ISMNeckBend",
+    "timestamp": 3000,
+    "tag": "ISM-NeckBend-1",
+    "flag": "off",
+    "priority": 3,
+	"chin2ThroatAngle": 50,
+    "ismChin2ThroatTime": 0.0	
+  },
+  {
+    "type": "ISMNeckBend",
+    "timestamp": 5000,
+    "tag": "ISM-NeckBend-2",
+    "flag": "off",
+    "priority": 3,
+	"chin2ThroatAngle": 160,
+    "ismChin2ThroatTime": 0.0	
+  },
+  {
+    "type": "ISMNeckBend",
+    "timestamp": 7000,
+    "tag": "ISM-NeckBend-Accept",
+    "flag": "off",
+    "priority": 3,
+	"chin2ThroatAngle": 90,
+    "ismChin2ThroatTime": 0.0	
+  },
+  {
+    "type": "ISMNeckBend",
+    "timestamp": 9000,
+    "tag": "ISM-NeckBend-Time",
+    "flag": "off",
+    "priority": 3,
+	"chin2ThroatAngle": 90,
+	"ismChin2ThroatTime": 3.0
+  },
+  {
+    "type": "ISMBackSlouch",
+    "timestamp": 10000,
+    "tag": "ISM-Back-Slouch-1",
+    "flag": "off",
+    "priority": 3,
+	"thigh2BackAngle": 20,
+ 	"ismThigh2BackTime": 0.0
+  },
+  {
+    "type": "ISMBackSlouch",
+    "timestamp": 12000,
+    "tag": "ISM-Back-Slouch-2",
+    "flag": "off",
+    "priority": 3,
+	"thigh2BackAngle": 150,
+ 	"ismThigh2BackTime": 0.0
+  },
+  {
+    "type": "ISMBackSlouch",
+    "timestamp": 14000,
+    "tag": "ISM-Back-Slouch-Accept",
+    "flag": "off",
+    "priority": 3,
+	"thigh2BackAngle": 100,
+ 	"ismThigh2BackTime": 0.0	
+  },
+  {
+    "type": "ISMBackSlouch",
+    "timestamp": 16000,
+    "tag": "ISM-Back-Slouch-Time",
+    "flag": "off",
+    "priority": 3,
+	"thigh2BackAngle": 100,
+	"ismThigh2BackTime": 3.0
+  },
+  {
+    "type": "ISMKneeBend",
+    "timestamp": 17000,
+    "tag": "ISM-Knee-Bend-1",
+    "flag": "off",
+    "priority": 3,
+	"knee2LegAngle": 30,
+	"ismKnee2LegTime": 0.0	
+  },
+  {
+    "type": "ISMKneeBend",
+    "timestamp": 19000,
+    "tag": "ISM-Knee-Bend-2",
+    "flag": "off",
+    "priority": 3,
+	"knee2LegAngle": 160,
+	"ismKnee2LegTime": 0.0	
+  },
+  {
+    "type": "ISMKneeBend",
+    "timestamp": 21000,
+    "tag": "ISM-Knee-Bend-Accept",
+    "flag": "off",
+    "priority": 3,
+	"knee2LegAngle": 95,
+	"ismKnee2LegTime": 0.0	
+  },
+  {
+    "type": "ISMKneeBend",
+    "timestamp": 23000,
+    "tag": "ISM-Knee-Bend-Time",
+    "flag": "off",
+    "priority": 3,
+	"knee2LegAngle": 95,
+	"ismKnee2LegTime": 3.0
+  }
+]
